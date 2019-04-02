@@ -1,5 +1,5 @@
 {
-  "name": "get-img",
+  "name": "got-img",
   "version": "0.1.0",
   "description": "Get an image from a url",
   "main": "index.js",
@@ -8,21 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jnoh/fetch-img.git"
+    "url": "git+ssh://git@github.com/jnoh/got-img.git"
   },
   "keywords": [
     "image",
+    "img",
     "fetch",
     "download",
     "get",
+    "got",
     "http"
   ],
   "author": "Jeff Noh <jnoh12388@gmail.com> (jnoh.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jnoh/fetch-img/issues"
+    "url": "https://github.com/jnoh/got-img/issues"
   },
-  "homepage": "https://github.com/jnoh/fetch-img#readme",
+  "homepage": "https://github.com/jnoh/got-img#readme",
   "devDependencies": {
     "ava": "^1.4.1"
   }

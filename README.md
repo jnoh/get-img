@@ -1,17 +1,17 @@
-# get-img
+# got-img
 > Get an image from a url
 
 ## Install
 ```
-npm install get-img
+npm install got-img
 ```
 
 ## Usage
 ```
-const getImg = require('get-img');
+const gotImg = require('got-img');
 
 (async () => {
-  const imgData = await getImg('http://obs.astro.ucla.edu/images/towercam.jpg');
+  const imgData = await gotImg('http://obs.astro.ucla.edu/images/towercam.jpg');
   doSomething(imgData); //imgData is binary
 })
 ```
