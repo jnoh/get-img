@@ -1,0 +1,28 @@
+{
+  "name": "fetch-img",
+  "version": "0.1.0",
+  "description": "Fetch an image",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jnoh/fetch-img.git"
+  },
+  "keywords": [
+    "fetch",
+    "download",
+    "image",
+    "http"
+  ],
+  "author": "Jeff Noh <jnoh12388@gmail.com> (jnoh.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnoh/fetch-img/issues"
+  },
+  "homepage": "https://github.com/jnoh/fetch-img#readme",
+  "devDependencies": {
+    "ava": "^1.4.1"
+  }
+}
