@@ -1,7 +1,7 @@
 {
-  "name": "fetch-img",
+  "name": "get-img",
   "version": "0.1.0",
-  "description": "Fetch an image",
+  "description": "Get an image from a url",
   "main": "index.js",
   "scripts": {
     "test": "ava"
@@ -11,9 +11,10 @@
     "url": "git+ssh://git@github.com/jnoh/fetch-img.git"
   },
   "keywords": [
+    "image",
     "fetch",
     "download",
-    "image",
+    "get",
     "http"
   ],
   "author": "Jeff Noh <jnoh12388@gmail.com> (jnoh.net)",

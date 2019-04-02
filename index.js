@@ -10,7 +10,7 @@ function isImage(contentType) {
 /** fetchImg() fetches GETs an image at `url` and returns
  * data in binary
  */
-async function fetchImg(url) {
+async function getImg(url) {
   const protocol = URL.parse(url).protocol;
   const httpModule = (protocol === 'https:' ? https : http);
 
@@ -44,4 +44,4 @@ async function fetchImg(url) {
   });
 }
 
-module.exports = exports = fetchImg;
+module.exports = exports = getImg;
