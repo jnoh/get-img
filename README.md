@@ -8,7 +8,7 @@ npm install get-img
 
 ## Usage
 ```
-const getImg = require('getImg');
+const getImg = require('get-img');
 
 (async () => {
   const imgData = await getImg('http://obs.astro.ucla.edu/images/towercam.jpg');
